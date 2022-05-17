@@ -1,0 +1,64 @@
+div.body {
+	background: #f0f0f0;
+	width: 1152px;
+	margin: auto;
+	padding: 25px;
+	padding-left: 45px;
+	border-radius: 50px;
+	font-family: "helvetica";
+	position: relative;
+}
+div.input {
+	position: absolute; 
+	left: 303.144px; 
+}
+div.buttons {
+	position: absolute; 
+	left: 474.8685px; 
+}
+.text {
+	font-family: "helvetica";
+	font-size: 19px;				
+}
+.h1_style {
+	margin-bottom: 20px;
+	font-size: 26px;
+	color: blue;
+}
+.h2_style {
+	margin-bottom: 20px;
+	font-size: 19px;
+	color: #444;
+}
+.h3_style {
+	margin-bottom: 20px;
+	font-size: 23px;
+	color: blue;
+}
+table {
+	margin: auto;
+	width: 420px;
+	vertical-align: top;
+	font-size: 18px;
+	border-spacing: 10px 10px;
+	border-collapse: collapse; /* Убираем двойные линии между ячейками */
+}
+td, th {
+	padding: 3px; /* Поля вокруг содержимого таблицы */
+}
+th {
+	background: #afd792; /* Цвет фона */
+	color: #333;  /* Цвет текста */
+}			
+/* Нечетные строки */
+tbody tr:nth-child(odd){
+	background: #e0e0f0;
+} 
+/* Четные строки */
+tbody tr:nth-child(even){
+	background: #99f;
+}
+/* наведение на строку таблицы */
+tbody tr:hover {
+	background: #f3bd48;
+}
